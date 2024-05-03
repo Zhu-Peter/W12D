@@ -5,7 +5,20 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <div id="login_container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" id="username" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+              
+            <button id="submit">Login</button>
+            <div id="error_container"></div>
+          </div>
+          <div id="page_container"></div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
